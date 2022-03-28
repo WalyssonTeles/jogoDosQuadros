@@ -40,7 +40,7 @@ button{
     font-size: 22px;
     font-weight: bold;
     color: white;
-    background-color: rgb(5, 177, 177);
+    background-image: linear-gradient(to bottom, rgb(5, 177, 177),rgb(17, 187, 159), rgb(41, 194, 161));
 
     border: none;
     border-radius: 30px;
@@ -49,7 +49,7 @@ button{
 }
 
 button:hover{
-    background-color: rgb(20, 156, 156);
+    background-image: linear-gradient(to bottom,rgb(15, 172, 172), rgb(17, 187, 159), rgb(15, 172, 172));
     cursor: pointer;
 }
 

@@ -53,15 +53,19 @@ function Jogo(){
             
             if(playerUpBoolean){
                 clearInterval(stopUp)
+                playerUpBoolean = false
             }
             if(playerDownBoolean){
                 clearInterval(stopDown)
+                playerDownBoolean = false
             }
             if(playerRightBoolean){
                 clearInterval(stopRight)
+                playerRightBoolean = false
             }
             if(playerLeftBoolean){
                 clearInterval(stopLeft)
+                playerLeftBoolean = false
             } 
 
             moviment = 3

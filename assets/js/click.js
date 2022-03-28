@@ -11,8 +11,6 @@ document.addEventListener('click', (event) => {
 
     e = event.target
 
-    console.log(e)
-
     let playerSquare = document.querySelector('.playerSquare')
 
     let velocity = 120

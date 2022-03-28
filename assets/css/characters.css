@@ -1,0 +1,98 @@
+#personagens{
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+
+    height: 100%;
+}
+
+#fieldGame{
+    height: 480px;
+    width: 960px;
+    border: 1px solid black;
+}
+
+.playerSquare, .targetSquare{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.playerSquare{
+    background-color: blue;
+}
+
+.targetSquare{
+    background-color: yellow;
+}
+
+@media (max-height: 425px){
+    #fieldGame{
+        height: 300px;
+    }
+
+    #personagens{
+        justify-content: space-around;
+        align-items:center;
+    }
+}
+
+@media (max-height: 330px){
+    #fieldGame{
+        height: 240px;
+    }
+}
+
+@media (max-width: 970px){
+    #fieldGame{
+        width: 630px;
+    }
+}
+
+@media (max-width: 670px){
+    #fieldGame{
+        width: 420px;
+    }
+}
+
+@media (max-width: 425px){
+    #fieldGame{
+        width: 390px;
+    }
+
+    #personagens{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items:center;
+
+        height: 100%;
+        width: 100vw;
+    }
+}
+
+@media (max-width: 395px){
+    #fieldGame{
+        width: 360px;
+    }
+}
+
+@media (max-width: 365px){
+    #fieldGame{
+        width: 330px;
+    }
+}
+
+@media (max-width: 335px){
+    #fieldGame{
+        width: 300px;
+    }
+}

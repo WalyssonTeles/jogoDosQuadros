@@ -1,0 +1,86 @@
+#mensagens{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frontScreen{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aviso, .endgame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100vw;
+    height: 100vh;
+}
+
+.conteudo_aviso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+}
+
+button{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(5, 177, 177);
+
+    border: none;
+    border-radius: 30px;
+    width: 250px;
+    padding: 15px 20px;
+}
+
+button:hover{
+    background-color: rgb(20, 156, 156);
+    cursor: pointer;
+}
+
+.btnJogar{
+    display: none;
+}
+
+.texto_aviso, .texto_endgame{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+.texto_endgame{
+    font-size: 30px;
+}
+
+.displayNone{
+    display: none;
+}
+
+@media (max-height: 425px){
+    .btnJogar{
+        display: inline;
+    }
+}
+
+@media (max-width: 425px){
+    .btnJogar{
+        display: inline;
+    }
+}

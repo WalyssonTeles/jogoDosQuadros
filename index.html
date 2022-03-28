@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movendo item</title>
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/arrows.css">
+    <link rel="stylesheet" href="assets/css/characters.css">
+    <link rel="stylesheet" href="assets/css/messages.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+<body>
+    <header>
+        <!-- PLACAR / TEMPO -->
+        <div class="grupoScore">
+            <div>
+                <h2 class="pontoHTML">Pontos: 0</h2>
+            </div>
+            <div class="temporizador">
+                <h2>7</h2>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+            <section id="personagens">
+                <!-- PERSONAGENS -->
+                <div id="fieldGame">
+                    <div class="targetSquare"></div>
+                    <div class="playerSquare"></div>
+                </div>
+
+                <div id="arrowsGame" class="displayNone">
+                    <button type="text" class="ArrowUp">&#8882;</button>
+                    <div class="middleArrow">
+                        <button type="text" class="ArrowLeft">&#8882;</button>
+                        <button type="text" class="ArrowRight">&#8882;</button>
+                    </div>
+                    <button type="text" class="ArrowDown">&#8882;</button>
+                </div>
+            </section>
+
+            <section id="mensagens">
+                <div class="frontScreen">
+                    <!-- INSTRUÇÃO DO JOGO -->
+                    <div class="aviso">
+                        <div class="conteudo_aviso">
+                            <div class="texto_aviso">
+                                <p>Use as setas para guiar o personagem até o alvo</p>
+                                <p>Você tem 7 segundos para isso...</p>
+                                <p>Boa sorte!</p>
+                                <button class="btnJogar">Jogar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- MENSAGEM DE DERROTA -->
+                    <div class="endgame displayNone">
+                        <div class="conteudo_endgame">
+                            <div class="texto_endgame">
+                                <h1>VOCÊ PERDEU!</h1>
+                                <p>Sua pontuação foi:</p>
+                                <p class="pontuacao">xxx pontos</p>
+                                <button class="btnReiniciar">Jogar Novamente</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+    </main>
+
+    
+
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/game.js"></script>
+    <script src="assets/js/click.js"></script>
+    <script src="assets/js/keys.js"></script>
+</body>
+</html>

@@ -15,7 +15,7 @@ document.addEventListener('click', (event) => {
 
     let playerSquare = document.querySelector('.playerSquare')
 
-    let velocity = 80
+    let velocity = 100
 
     if(moviment === 2){
         if(e.classList.contains("ArrowRight") || e.classList.contains("ArrowLeft") || e.classList.contains("ArrowDown") || e.classList.contains("ArrowUp")){

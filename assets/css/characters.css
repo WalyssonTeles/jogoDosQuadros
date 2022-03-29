@@ -38,6 +38,7 @@
 @media (max-height: 425px){
     #fieldGame{
         height: 300px;
+        border: 1px solid rgb(0, 0, 0)
     }
 
     #personagens{
@@ -67,6 +68,7 @@
 @media (max-width: 425px){
     #fieldGame{
         width: 390px;
+        border: 1px solid rgb(0, 0, 0)
     }
 
     #personagens{

@@ -1,6 +1,6 @@
 #arrowsGame{
-    height: 150px;
-    width: 150px;
+    height: 220px;
+    width: 220px;
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     
@@ -14,14 +14,14 @@
 }
 
 .ArrowDown, .ArrowUp, .ArrowRight, .ArrowLeft{
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    font-size: 30px;
+    font-size: 55px;
     border-radius: 50%;
     box-sizing: border-box;
     color: rgba(255, 255, 255, 0.5);
